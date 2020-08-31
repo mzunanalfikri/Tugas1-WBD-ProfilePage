@@ -84,3 +84,27 @@
 .text-center {
     text-align: center;
 }
+
+/* project */
+
+.project-card {
+    /* Add shadows to create the "card" effect */
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    border-radius: 5px;
+    margin: 10px;
+}
+
+.project-card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.container-project {
+    padding: 2px 16px;
+}
+
+.project-img {
+    width: 14vmax;
+    height:14vmax;
+    border-radius: 5px 5px 0 0;
+}
