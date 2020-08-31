@@ -1,5 +1,33 @@
+/* Gereral */
+a{
+    text-decoration: none;
+}
 
+.container {
+    font-family: 'Roboto', sans-serif;
+    margin-right: auto; /* 1 */
+    margin-left:  auto; /* 1 */
+  
+    max-width: 960px; /* 2 */
+  
+    padding-right: 10px; /* 3 */
+    padding-left:  10px; /* 3 */
+}
 
+.row {
+    display: flex;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.content-center {
+    margin: 0 auto;
+    justify-content: center;
+}
+
+/* Navigation bar */
 .nav{
     font-family: 'Roboto', sans-serif;
     border:1px solid #ccc;
@@ -24,44 +52,9 @@
     color: black;
 }
 
-.container {
-    font-family: 'Roboto', sans-serif;
-    margin-right: auto; /* 1 */
-    margin-left:  auto; /* 1 */
-  
-    max-width: 960px; /* 2 */
-  
-    padding-right: 10px; /* 3 */
-    padding-left:  10px; /* 3 */
-}
 
-.title-content {
-    padding-left: 5%;
-}
 
-.par-content {
-    padding-left : 10%;
-}
-.footer {
-    font-family: 'Roboto', sans-serif;
-    background-color: blue;
-    margin: 0px auto;
-    padding: 20px 100px 20px 100px;
-}
-
-.footer p {
-    text-align: center;
-}
-
-.footer a{
-    color: white;
-    text-align: center;
-}
-
-.row {
-    display: flex;
-}
-
+/* About section */
 .about-left {
     text-align: left;
     width: 30%;
@@ -81,11 +74,28 @@
     object-fit: cover;
 }
 
-.text-center {
-    text-align: center;
+/* Content */
+.title-content {
+    padding-left: 5%;
 }
 
-/* project */
+.par-content {
+    padding-left : 10%;
+    color: grey;
+}
+
+.date {
+    font-weight: 50;
+    font-style: italic;
+    font-size: medium;
+    color: darkslategray;
+}
+
+/* project Section*/
+.project-row {
+    display: flex;
+    justify-content: center;
+}
 
 .project-card {
     /* Add shadows to create the "card" effect */
@@ -107,4 +117,28 @@
     width: 14vmax;
     height:14vmax;
     border-radius: 5px 5px 0 0;
+}
+
+/* Footer */
+.footer {
+    font-family: 'Roboto', sans-serif;
+    background-color: blue;
+    margin: 0px auto;
+    padding: 20px 100px 20px 100px;
+}
+
+.footer p {
+    text-align: center;
+    color: white;
+}
+
+.footer a{
+    color: white;
+    text-align: center;
+}
+
+.footer-img {
+    width: 3vmax;
+    height:3vmax;
+    margin: 10px;
 }
